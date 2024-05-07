@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct JenlogApp: App {
+struct JenlogApp: App {
     
     var modelContainer: ModelContainer = {
             let schema = Schema([Post.self])
